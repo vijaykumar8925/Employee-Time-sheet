@@ -1,0 +1,217 @@
+/* index.css */
+.attendance_parent{
+    width: 100%;
+ font-size: 14px;
+ text-transform: capitalize;
+}
+.attendance_child{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Skill_button{
+    width: 500px;
+    height: 30px;
+    border-radius: 3px;
+    border: 0.5px solid rgb(129, 128, 128);
+   background: none;
+     resize: none;
+     outline: none;
+    position: relative;
+    text-transform: capitalize;
+    color: rgb(139 139 139);
+    text-align: start;
+    padding-left: 2px;
+}
+
+select {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+select:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+
+
+
+
+.Skill_button_checkbox{
+    z-index: 1;
+    cursor: pointer;
+    width: 500px;
+    position: absolute;
+    height: 150px;
+    overflow: auto;
+    background-color: orangered;
+    color: #050404;
+}
+.Skill_button_checkbox_1{
+    transition:all 0.3s ease-in-out;
+}
+.attendance_child_1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+   padding-right: 40px;
+}
+.attendance_child_2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.attendance_child_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.attendance_child_3_1{
+    display: flex;
+    gap: 60px;
+
+}
+.attendance_child_header{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Wix Madefor Text', sans-serif;
+   text-transform: uppercase;
+    
+}
+.Add_button button{
+    width: 80px;
+    outline: none;
+    text-transform: capitalize;
+    border: 1px solid rgb(135, 135, 156);
+    border-radius: 3px;
+}
+.ten_year_tag{
+   display: flex;
+   height: 30px;
+   align-items: center;
+   border: 1px solid rgb(135, 135, 156);
+   color: rgb(139 139 139);
+}
+._select_parent{
+    position: relative;
+}
+._select_parent div{
+    position: absolute;
+    top: 3px;
+    right: 30px;
+   
+}
+.attendance_child_header_3 div button{
+    width: 200px;
+    margin-top: 20px;
+    border: 1px solid rgb(195, 195, 218);
+    border-radius: 5px;
+    background-color: rgb(37, 51, 48);
+    padding:5px;
+    color: #ffffff;
+}
+
+.tablehead th{
+    width: 100px;
+    border: 1px solid rgb(3, 3, 3);
+    background-color: rgb(22, 73, 116);
+   padding:5px;
+   color: wheat;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+   
+}
+.tablehead_row td{
+    border: 1px solid rgb(20, 19, 19);
+    padding:3px
+}
+.ToastContainer{
+    background-color: red;
+}
+.EditIconHover:hover{
+    color: rgb(12, 153, 247);
+}
+.DeleteIconHover:hover{
+    color: rgb(255, 0, 0);
+}
+
+input[type='checkbox']:checked + span::after{
+    color: white;
+}
+
+input[type='password']{
+    padding: 5px;
+}
+input[type='text']{
+    padding: 5px;
+}
+
+
+  .dropdown-container {
+    width: 500px;
+    padding-bottom: 0;
+  }
+
+  .search { 
+    position: relative; 
+    margin: 0 auto ;
+    text-align: center;
+  }
+
+  
+   .fa-search { 
+    position: absolute;
+    top: 10px;
+    left: 92%;
+    cursor: pointer;
+  }
+
+  .fa-search::before{
+    content: none;
+  }
+ 
+  
+  
+  .password {
+      width: 400px;
+      height: 30px;
+      border-radius: 3px;
+      border: 0.5px solid rgb(129, 128, 128);
+       resize: none;
+       outline: none;
+  }
+
+  .password1 {
+    width: 500px;
+    height: 30px;
+    border-radius: 3px;
+    border: 0.5px solid rgb(129, 128, 128);
+     resize: none;
+     outline: none;
+}
+
+.pass-warning{
+   width: 200px;
+   height: 100px;
+    background-color: #DCDCDC;
+}
+
+.para-warning{
+    margin: 0;
+    font-size: 13px;
+    color: rgb(124, 122, 122);
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+@media only screen and (max-width : 1100px){
+   .phone{
+     gap: 100px;
+   }
+}
+
+

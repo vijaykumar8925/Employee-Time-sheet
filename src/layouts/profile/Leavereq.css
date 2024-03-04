@@ -1,0 +1,322 @@
+.leavereq_parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input[type='text']{
+    padding-left: 5px;
+}
+
+.leavereq_child_two_1 textarea{
+    width: 500px;
+    height: 50px;
+    border: 0.3px solid rgb(197, 195, 195);
+    outline: 0;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    resize: none;
+}
+
+.leavereq_child_two_1 textarea:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+.leavereq_child_two_2 select{
+    width: 500px;
+    height: 35px;
+    border: 0.3px solid rgb(197, 195, 195);
+    outline: 0;
+    border-radius: 5px;
+    font-size: 13px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+.leavereq_child_two_2 select:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+.leavereq_child_two_3 div input{
+    width: 250px;
+    height: 35px;
+    border: 0.3px solid rgb(197, 195, 195);
+    outline: 0;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   font-size: 13px;
+   -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+.leavereq_child_two_3 div input:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+.leave_header{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.leavereq_child_two_3 div select{
+    width: 250px;
+    height: 35px;
+    border: 0.3px solid rgb(197, 195, 195);
+    outline: 0;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 13px;
+    margin-top: .4rem;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+.leavereq_child_two_4 div input{
+    width: 250px;
+    height: 35px;
+    border: 0.3px solid rgb(197, 195, 195);
+    outline: 0;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+.leavereq_child_two_4 div input{
+    width: 250px;
+    height: 35px;
+    border: 0.3px solid rgb(197, 195, 195);
+    outline: 0;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: .9rem;
+    color: grey;
+    display: flex;
+    align-items: center;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+.leavereq_child_two_4 div .box{
+    width: 250px;
+    height: 35px;
+    border: 0.3px solid rgb(197, 195, 195);
+    outline: 0;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: .9rem;
+    color: grey;
+    display: flex;
+    align-items: center;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+.leavereq_child_two_3 div select:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.leavereq_child_two_4 div select:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.leavereq_child_two_4 div input:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.leavereq_child_two_4 div select{
+    width: 250px;
+    height: 35px;
+    border: 0.3px solid rgb(197, 195, 195);
+    outline: 0;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 16px;
+    margin-top: .4rem;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+.leavereq_child_two_5 div button{
+    width: 300px;
+    height: 35px; border: 0.3px solid rgb(197, 195, 195);
+    outline: 0;
+    box-shadow:  0 0 2px rgb(14, 13, 13);
+    background-color:#293750;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.leavereq_child_two_5 div button:hover{
+
+    background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+    color: white;
+    border-radius: 20px;
+}
+.leavereq_child_two {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    padding: 30px;
+    border-radius: 5px;
+   font-size: 16px;
+   border-radius: 10px;
+   background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+::-webkit-datetime-edit { padding: 0.5em }
+::-webkit-datetime-edit { font-size: 0.9em }
+::-webkit-datetime-edit { color: rgb(148, 145, 141); }
+@media only screen and (max-width: 1000px) {
+   .leavereq_child_one{
+    display: none;
+   }
+   }
+   @media only screen and (max-width: 600px) {
+    .leavereq_child_two_1 textarea{
+        width: 400px;
+        height: 50px;
+     
+    }
+    .leavereq_child_two_2  select{
+        width: 400px;
+        height: 30px;
+        
+    }
+    .leavereq_child_two_4 div input{
+        width: 200px;
+        height: 35px;
+        
+    }
+    .leavereq_child_two_4 div select{
+        width: 200px;
+        height: 35px;
+        
+    }
+    
+
+    .leavereq_child_two_4 div .box {
+        width: 200px;
+        height: 35px;
+    }
+    .leavereq_child_two_3 div input{
+        width: 300px;
+        height: 30px;
+       
+    }
+    .leavereq_child_two_3 div select{
+        width: 100px;
+        height: 35px;
+       
+    }
+    .leavereq_child_two_5 div button{
+        width: 400px;
+        height: 30px;
+    }
+    }
+    @media only screen and (max-width: 500px) {
+        .leavereq_child_two_1 textarea{
+            width: 300px;
+            height: 40px;
+           
+        }
+        .leavereq_child_two_2  select{
+            width: 200px;
+            height: 30px;
+            
+        }
+        .leavereq_child_two_4 div input{
+            width: 200px;
+            height: 35px;   
+        }
+        .leavereq_child_two_4 div .box{
+            width: 200px;
+            height: 35px;   
+        }
+        .leavereq_child_two_4 div select{
+            width: 200px;
+            height: 35px;
+            
+        }
+        .leavereq_child_two_3 div input{
+            width: 200px;
+            height: 30px;
+           
+        }
+        .leavereq_child_two_3 div select{
+            width: 100px;
+            height: 30px;
+           
+        }
+        .leavereq_child_two_5 div button{
+            width: 200px;
+            height: 30px;
+        }
+        .leavereq_child_two_2 select{
+            width: 300px;
+            height: 30px;
+        }
+        }
+        @media only screen and (max-width: 400px) {
+            .leavereq_child_two_1 div textarea{
+                width: 300px;
+                height: 40px;
+               
+            }
+            .leavereq_child_two_2  select{
+                width: 150px;
+                height: 30px;
+                
+            }
+            .leavereq_child_two_4 div input{
+                width: 150px;
+                height: 35px;
+                
+            }
+            .leavereq_child_two_4 div .box{
+                width: 150px;
+                height: 35px;
+                
+            }
+            .leavereq_child_two_4 div select{
+                width: 150px;
+                height: 35px;
+                
+            }
+            .leavereq_child_two_3 div input{
+                width: 150px;
+                height: 30px;
+               
+            }
+            .leavereq_child_two_3 div select{
+                width: 100px;
+                height: 30px;
+               
+            }
+            .leavereq_child_two_5 div button{
+                width: 200px;
+                height: 30px;
+            }
+            .leavereq_child_two_2 select{
+                width: 300px;
+                height: 30px;
+            }
+            }

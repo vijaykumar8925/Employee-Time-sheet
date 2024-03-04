@@ -1,0 +1,27 @@
+.sanju{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+.sanju input{
+    width: 40px;
+    height: 30px;
+    /* margin-left: .5rem; */
+    margin: 10px solid black;
+    outline: none;
+    border-radius: .4rem;
+    text-align: center;
+    font-size: 1rem;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+
+

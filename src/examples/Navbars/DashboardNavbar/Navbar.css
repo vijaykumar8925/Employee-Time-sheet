@@ -1,0 +1,17 @@
+.nav_button{
+    animation: zoominoutsinglefeatured 1.5s alternate infinite ease-in;
+    border: none;
+    border-radius: 4px;
+}
+
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}

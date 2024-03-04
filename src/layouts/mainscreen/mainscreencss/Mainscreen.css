@@ -1,0 +1,160 @@
+.mainscreen_parent{
+    margin: 0;
+    padding: 0%;
+    box-sizing: 0;
+    width: 100%;
+    height: auto;
+    font-family: 'Merienda', sans-serif;
+    text-transform: capitalize;
+   
+}
+.Exit_icon:hover{
+  color: rgb(64, 221, 200);
+}
+.Button_1 button{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    outline: 0;
+    border: none;
+    box-shadow:  0 0 16px rgb(14, 13, 13);
+background-color: rgb(255, 255, 255);
+color: rgb(150, 150, 150);
+font-size: 14px;
+
+}
+
+.Button_1 button:hover{
+    background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+}
+.mainscreen_child_1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainscreen_header{
+    
+    display: flex;
+    justify-content: center;
+ font-size: 30px;
+ font-family: Arial, Helvetica, sans-serif;
+ outline: 0;
+ border: none;
+ box-shadow:  0 0 2px rgb(14, 13, 13);
+background-color: rgb(255, 255, 255);
+color: rgb(150, 150, 150);
+  margin: 10px;
+ border: 3px solid rgb(255, 255, 226);
+ height: 70px;
+ align-items: center;
+ position: relative;
+}
+.mainscreen_child{
+  position: absolute;
+  left: 0;
+  
+ }
+ .mainscreen_child_logintime{
+  position: absolute;
+  font-size: 10px;
+  right: 0;
+  color: #9b1d1d;
+ }
+.mainscreen_child_2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainscreen_child_3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainscreen_child_4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.child_parent{
+    display: flex;
+    flex-direction: column;
+   height: 85vh;
+   background-color: rgb(255, 255, 255);
+   padding: 10px;
+   justify-content: space-around;
+   overflow-y: scroll
+}
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+#header{
+  font-size: 50px;
+  font-family: 'Merienda', sans-serif;
+
+  color: #fffefe61;
+  background: -webkit-gradient(linear, left top, right top, from(#09a098), to(#5885ff), color-stop(0.8, #56da45)) no-repeat;
+ background-color: rgb(106, 107, 107);
+  background-size: 110px 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: flick 3s infinite;
+}
+.Header_two{
+  text-align: center;
+}
+@keyframes flick {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@media only screen and (max-width: 850px) {
+   
+.Button_1 button{
+   width: 120px;
+   font-size: 10px;
+   height: 40px;
+}
+.child_parent{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  
+}
+#header{
+  font-size: 30px;
+}
+.mainscreen_header{
+  height: 60px;
+}
+  }
+  @media only screen and (max-width: 650px) {
+   
+    .Button_1 button{
+       width: 110px;
+       height: 40px;
+       font-size: 8px;
+    }
+    .mainscreen_header{
+        font-size: 20px;
+        margin: 0%;
+    }
+    #header{
+      font-size: 26px;
+    }
+    
+      }
+      @media only screen and (max-width: 500px) {
+   
+        .Button_1 button{
+           width: 60px;
+           font-size: 5px;
+        }
+        .mainscreen_header{
+            font-size: 16px;
+        }
+        #header{
+          font-size: 16px;
+        }
+       
+          }
